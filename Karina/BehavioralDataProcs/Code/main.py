@@ -5,6 +5,9 @@ Created on Fri Nov 10 12:41:21 2017
 @author: 425196
 """
 
+#NOTE:  This procedure presumes the existence of an Excel workbook identified as 'xlTargetFile'
+#with a worksheet named 'Data'
+
 import re
 from re import compile
 
